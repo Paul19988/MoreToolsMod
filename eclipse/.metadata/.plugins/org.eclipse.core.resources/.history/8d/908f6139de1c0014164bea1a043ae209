@@ -1,0 +1,25 @@
+package com.paul19988.moretoolsmod.crafting;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.ShapedOreRecipe;
+
+import com.paul19988.moretoolsmod.Materials;
+import com.paul19988.moretoolsmod.items.ItemRedstonePickaxe;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class CraftingRecipies {
+
+	public static void init() {
+		
+		GameRegistry.addShapedRecipe(new ItemStack(Materials.ItemRedstonePickaxe, 1), new Object[]{"RRR"," S "," S ", 'S', Items.stick, 'R', Blocks.redstone_block});
+		GameRegistry.addShapedRecipe(new ItemStack(Materials.ItemRedstoneAxe, 1), new Object[]{"RRR"," S "," S ", 'S', Items.stick, 'R', Blocks.redstone_block});
+		GameRegistry.addShapedRecipe(new ItemStack(Materials.ItemRedstoneSpade, 1), new Object[]{"RRR"," S "," S ", 'S', Items.stick, 'R', Blocks.redstone_block});
+		GameRegistry.addShapedRecipe(new ItemStack(Materials.ItemRedstoneSword, 1), new Object[]{"RRR"," S "," S ", 'S', Items.stick, 'R', Blocks.redstone_block});
+		GameRegistry.addShapedRecipe(new ItemStack(Materials.ItemRedstoneHoe, 1), new Object[]{"RRR"," S "," S ", 'S', Items.stick, 'R', Blocks.redstone_block});
+
+	}
+
+}

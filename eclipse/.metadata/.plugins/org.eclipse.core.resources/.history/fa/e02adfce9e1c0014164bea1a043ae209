@@ -1,0 +1,15 @@
+package com.paul19988.moretoolsmod.items;
+
+public class ItemRedstonePickaxe {
+	{
+		   public ItemBronzePickaxe(Item.ToolMaterial mat){
+			   super(mat);
+		   }
+
+		   @SideOnly(Side.CLIENT)
+		   public void registerIcons(IIconRegister reg) {
+			   this.itemIcon = reg.registerIcon("sebitweaks:bronzePickaxe");
+		   }
+
+
+		}

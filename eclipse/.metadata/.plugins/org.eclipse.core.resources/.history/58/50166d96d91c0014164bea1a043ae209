@@ -1,0 +1,20 @@
+package com.paul19988.moretoolsmod.crafting;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.ShapedOreRecipe;
+
+import com.paul19988.moretoolsmod.Materials;
+import com.paul19988.moretoolsmod.blocks.ModBlocks;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class CraftingRecipes {
+
+	public static void init() {
+
+
+	}
+
+}

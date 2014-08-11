@@ -1,0 +1,7 @@
+package com.paul19988.moretoolsmod.items;
+
+import net.minecraft.item.ItemSpade;
+
+public class ItemRedstoneShovel extends ItemSpade{
+
+}

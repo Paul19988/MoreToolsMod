@@ -1,0 +1,21 @@
+package com.paul19988.moretoolsmod.crafting;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.ShapedOreRecipe;
+
+import com.paul19988.moretoolsmod.Materials;
+import com.paul19988.moretoolsmod.items.ItemRedstonePickaxe;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+
+public class CraftingRecipies {
+
+	public static void init() {
+		
+		GameRegistry.addShapedRecipe(new ItemStack(Materials.ItemRedstonePickaxe, 1), new Object[]{"","","", Character.valueOf("S")});
+
+	}
+
+}
